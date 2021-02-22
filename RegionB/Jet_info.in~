@@ -40,7 +40,7 @@ Tau2MatchingDeltaR 0.3
 RemoveOverlapWithJs 0
 JMatchingDeltaR 0.3
 
-RemoveOverlapWithBs 0
+RemoveOverlapWithBs 1
 BJMatchingDeltaR 0.3
 
 Apply2017EEnoiseVeto true
@@ -73,7 +73,7 @@ Tau2MatchingDeltaR 0.3
 RemoveOverlapWithJs 0
 JMatchingDeltaR 0.3
 
-RemoveOverlapWithBs 0
+RemoveOverlapWithBs 1
 BJMatchingDeltaR 0.3
 
 Apply2017EEnoiseVeto true
@@ -171,8 +171,8 @@ PtCut 30.0
 
 RemoveOverlapWithMuon1s 1
 RemoveOverlapWithMuon2s 1
-Muon1MatchingDeltaR 0.3
-Muon2MatchingDeltaR 0.3
+Muon1MatchingDeltaR 0.4
+Muon2MatchingDeltaR 0.4
 
 RemoveOverlapWithElectron1s 1
 RemoveOverlapWithElectron2s 1
@@ -194,4 +194,4 @@ JetBTaggingWP   tight
 JetBTaggingCut  0.8001
 MatchBToGen     0
 UseBtagSF       0
-RemoveBJetsFromJets 0
+RemoveBJetsFromJets 1
